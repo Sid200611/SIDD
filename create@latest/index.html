@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Carousel</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet" />
+    <style>
+        .reviews {
+            animation: fadeIn 1.5s ease-in-out; 
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(10px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div class="carousel">
+    <div class="list">
+        <div class="item">
+            <img src="cheek-dewo_300x-removebg-preview.png" alt="Dew Blush">
+            <div class="introduce">
+                <div class="title">DEW BLUSH</div>
+                <div class="topic">Price: $18</div>
+                <div class="des">
+                    BLENDABLE LIQUID CHEEK FLUSH FOR ALL SKIN TYPES
+                </div>
+                <div class="reviews">Reviews: 1279</div>
+            </div>
+        </div>
+        <div class="item">
+            <img src="0002_saie-lip-blur-modern-1_1000x-removebg-preview.png" alt="Lip Blur">
+            <div class="introduce">
+                <div class="title">LIP BLUR</div>
+                <div class="topic">Price: $24</div>
+                <div class="des">
+                    SOFT-MATTE HYDRATING LIPSTICK
+                </div>
+                <div class="reviews">Reviews: 528</div>
+            </div>
+        </div>
+        <div class="item">
+            <img src="saie-mascara-101-primary_1000x-removebg-preview.png" alt="Mascara 101">
+            <div class="introduce">
+                <div class="title">MASCARA 101</div>
+                <div class="topic">Price: $26</div>
+                <div class="des">
+                    THICK, BOLD, LIFTED LASHES.
+                </div>
+                <div class="reviews">Reviews: 844</div>
+            </div>
+        </div>
+        <div class="item">
+            <img src="saie-slip-tint-2022-featured-1_300x-removebg-preview.png" alt="Slip Tint Tinted Moisturizer">
+            <div class="introduce">
+                <div class="title">  MOISTURIZER</div>
+                <div class="topic">Price: $36</div>
+                <div class="des">
+                    SHEER COVERAGE, HYDRATION, SPF 35
+                </div>
+                <div class="reviews">Reviews: 3405</div>
+            </div>
+        </div>
+        <div class="item">
+            <img src="square-_0000_Shade_108778_1000x-removebg-preview.png" alt="Slip Tint Tinted Moisturizer">
+            <div class="introduce">
+                <div class="title">GLOW SCULPT</div>
+                <div class="topic">Price: $25</div>
+                <div class="des">
+                    MULTI-USE CREAM HIGHLIGHTING BLUSH
+                </div>
+                <div class="reviews">Reviews: 338</div>
+            </div>
+        </div>
+      
+        </div>
+    </div>
+    <div class="arrows">
+        <button id="prev">-</button>
+        <button id="next">+</button>
+    </div>
+</div>
+<script src="main.js"></script>
+</body>
+</html>
